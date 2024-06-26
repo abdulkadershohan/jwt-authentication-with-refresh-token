@@ -1,0 +1,36 @@
+{
+  "name": "jwt-authentication-with-refresh-token",
+  "version": "1.0.0",
+  "description": "JWT Authentication in Nodejs — Refresh JWT with Cookie-based Token",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdulkadershohan/jwt-authentication-with-refresh-token.git"
+  },
+  "author": "MD.Abdul Kader",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdulkadershohan/jwt-authentication-with-refresh-token/issues"
+  },
+  "homepage": "https://github.com/abdulkadershohan/jwt-authentication-with-refresh-token#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.7.0",
+    "mongoose": "^8.4.4",
+    "nodemon": "^3.1.4"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.5.2"
+  }
+}
